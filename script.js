@@ -97,5 +97,16 @@ var exampleComparison1 = 5 === 5; //true
 var exampleComparison1 = 5 !== 5; //false
 var exampleComparison1 = "5" != 5; //true
 
-
 document.write("5" === 5);
+
+// If else
+if (5>3) {
+  document.write("Hello world");
+}
+else {
+  document.write("Bye world");
+}
+
+
+var age = promt("How old are you?");
+alert("You are" + age + "years old")
