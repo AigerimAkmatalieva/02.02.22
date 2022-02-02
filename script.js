@@ -45,6 +45,7 @@ var result = confirm("HEllo world");//boolean
 
 document.write("Hello world");
 
+//type conversion
 var exampleTypeConversion1 = 5 + "5";
 document.write("exampleTypeConversion1");
 
@@ -54,3 +55,35 @@ document.write("exampleTypeConversion1");
 var exampleTypeConversion1 = 5 + 5 + "5";
 document.write("exampleTypeConversion1");
 
+var exampleTypeConversion1 = false + 2;
+document.write("exampleTypeConversion1");
+
+var exampleTypeConversion1 = true + 2;
+document.write("exampleTypeConversion1");
+
+//Math
+var exampleMath1 = 5 + 6;
+var exampleAmth2 = 5 - 6;
+var exampleMath3 = 5 * 6;
+
+var exampleMAth4 = 5 % 2; //1-Remainder
+var exampleMath5 = 6 % 2; //0
+
+
+//Exponent
+var exampleMAth7 = 2 ** 4;
+
+document.write(5 * (2 - 3) - 5);
+
+
+//fast modify
+var exampleMath8 = 4;
+exampleMath8 += 5;
+exampleMath8 -= 3;
+
+//Increment /decrement
+var exampleMath = 0;
+exampleMath9++;
+exampleMAth9--;
+++exampleMath9;
+--exampleMath9;
