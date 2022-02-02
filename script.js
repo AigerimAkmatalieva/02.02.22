@@ -1,3 +1,4 @@
+
 var message = "Hello world";
 var emptyVAriable;
 var firstName, lastName = "Akmatalieva";
@@ -123,4 +124,8 @@ else {
 var userNumber;
 while (userNumber != 13) {
 userName = promt("Write thirteen as a number");
+}
+
+for (var i=1; i<=9; i++) {
+  document.write(i + "")
 }
