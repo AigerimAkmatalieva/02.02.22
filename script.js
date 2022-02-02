@@ -36,3 +36,14 @@ var exampleSymbol = Symbol("id")
 var exampleObject1 = {};
 var exampleObject2 = Math;
 document.write(typeof exampleObject)
+
+
+//Output
+alert("Hello world");
+var result = promt("Hello World");//string
+var result = confirm("HEllo world");//boolean
+
+document.write("Hello world");
+
+var exampleTypeConversion1 = 5 + "5";
+document.write("exampleTypeConversion1");
