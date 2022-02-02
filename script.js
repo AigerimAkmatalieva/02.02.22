@@ -109,4 +109,18 @@ else {
 
 
 var age = promt("How old are you?");
-alert("You are" + age + "years old")
+var votingYears = age - 18;
+if(votingYears === NaN) {
+  alert("Wrong input.Numbers only.")
+}
+else if (votingYears < 0) {
+alert("you are too young to vote!")
+}
+else {
+  alert("You could've vote for" + votingYears + "years");
+}
+
+var userNumber;
+while (userNumber != 13) {
+userName = promt("Write thirteen as a number");
+}
