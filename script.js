@@ -50,3 +50,7 @@ document.write("exampleTypeConversion1");
 
 var exampleTypeConversion1 = 5 + 5;
 document.write("exampleTypeConversion1");
+
+var exampleTypeConversion1 = 5 + 5 + "5";
+document.write("exampleTypeConversion1");
+
