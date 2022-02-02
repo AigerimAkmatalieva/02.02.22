@@ -87,3 +87,15 @@ exampleMath9++;
 exampleMAth9--;
 ++exampleMath9;
 --exampleMath9;
+
+//Comparisons
+var exampleComparison1 = 6 > 5; //true
+var exampleComparison1 = 6 < 5; //False
+var exampleComparison1 = 6 >= 5; //true
+var exampleComparison1 = 6 <= 5; //false
+var exampleComparison1 = 5 === 5; //true
+var exampleComparison1 = 5 !== 5; //false
+var exampleComparison1 = "5" != 5; //true
+
+
+document.write("5" === 5);
